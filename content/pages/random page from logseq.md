@@ -18,6 +18,11 @@ foooo
 
 ## Title 2
 
-foooo touch
+foooo touch \(haha\)
+not haha $ haha $
+
+$$
+\sum_j a_{ij}^h v_j
+$$
 
 ![test](/assets/test.png)

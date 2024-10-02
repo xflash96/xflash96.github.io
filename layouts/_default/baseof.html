@@ -6,6 +6,10 @@
     {{ if .Site.Params.GoogleAnalytics }}
     {{ partial "analytics-gtag.html" . }}
     {{ end }}
+
+    {{ if .Param "math" }}
+    {{ partialCached "math.html" . }}
+    {{ end }}
 </head>
 
 <body class="
