@@ -11,14 +11,10 @@ params:
   socialIcons: # optional
     - name: "github"
       url: "https://github.com/xflash96"
-    # - name: "youtube"
-    #   url: "https://www.youtube.com/channel/XXX"
     - name: "twitter"
       url: "https://x.com/_powei"
-    # - name: "kofi"
-    #   url: "https://buymeacoffee.com/XXX"
-    # - name: "rss"
-    #   url: "https://XXX.github.io/index.xml"
+    - name: "rss"
+      url: "https://powei.org/index.xml"
   ShowReadingTime: true
   author: "Po-Wei Wang"
   contact: "xflash96@gmail.com"
@@ -28,7 +24,7 @@ params:
 
   #Google Analytics 4 optional
   env: #production
-  GoogleAnalytics: "G-00000XXXXX"
+  GoogleAnalytics: "G-26SJ4Y8M7J"
   sitemap:
     changefreq: daily
     filename: sitemap.xml
