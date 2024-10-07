@@ -1,18 +1,20 @@
 baseURL: https://powei.org
 languageCode: en-us
-title: Testing
+title: Powei's Lab
 theme: "PaperMod"
 
 params:
   homeInfoParams:
-    Title: Sup bruh 😎 this is a test
-    Content: This is something shows in your homepage.
+    Title: Welcome to Powei's Lab
+    Content:
 
   socialIcons: # optional
     - name: "github"
       url: "https://github.com/xflash96"
     - name: "twitter"
       url: "https://x.com/_powei"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/po-wei-wang-56218a38/"
     - name: "rss"
       url: "https://powei.org/index.xml"
   ShowReadingTime: true
@@ -64,6 +66,8 @@ menu:
 
 markup:
   goldmark:
+    renderer:
+      unsafe: true
     extensions:
       passthrough:
         delimiters:

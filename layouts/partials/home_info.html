@@ -1,0 +1,32 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+    </header>
+    <div class="entry-content">
+      Hello! 👋
+    This is <b>Po-Wei Wang</b>'s website, who's now an applied scientist at <a href="https://www.pinterestcareers.com/pin-labs/" target="_blank">Pinterest ATG 📌</a> contributing to GPU serving/training,
+      and recommendation system/modeling.
+      Before that, he worked with <a href="https://zicokolter.com/" target="_blank">Zico Kolter</a> as a PhD at <a href="https://www.ml.cmu.edu/" target="_blank">CMU Machine Learning Department</a>,
+        researching on optimization-as-an-layer, graph, and efficient reasoning.
+    </div>
+    <footer class="entry-footer">
+      <div style="display: flex">
+        <div style="max-width:50%;">
+        <img src="/assets/profile-512.webp" width="90%" maxwidth="512px" />
+        </div>
+        <div style="flex-direction:column; align-items:flex-start">
+                <h2>Po-Wei Wang</h2>
+                <h2>王柏崴</h2>
+                <br/>
+                <p>✉️  Email: <a href="mailto:poweiw@cs.cmu.edu" target="_blank">poweiw@cs.cmu.edu</a></p>
+                <p>📄 <a href="/assets/powei-resume.pdf" target="_blank">Resume [pdf]</a></p>
+                <p>📚 <a href="https://scholar.google.com/citations?user=vWP0uTIAAAAJ&hl=en" target="_blank">Google Scholar</a></p>
+                <br/>
+                <p>
+
+        </div>
+    </footer>
+</article>
+{{- end -}}
